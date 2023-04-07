@@ -1,23 +1,35 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+// import ArrayMethods from "./components/JS/ArrayMethods";
+// import Func from "./components/JS/FirstPract";
+// import MapFilter from "./components/JS/ImportPract";
+import StringMethods from "./components/JS/StringMethods";
 
 function App() {
+  // const fruits = [
+  //   "red apple 🍎",
+  //   "green apple 🍏",
+  //   "orange 🍊",
+  //   "strawberry 🍓",
+  //   "kiwi 🥝",
+  //   "banana 🍌",
+  //   "pineapple 🍍",
+  //   "peach 🍑",
+  //   "watermelon 🍉",
+  //   "mango 🥭",
+  //   "pear 🍐",
+  //   "grapes 🍇",
+  //   "cherries 🍒",
+  //   "lemon 🍋",
+  //   "melon 🍈",
+  //   "coconut 🥥",
+  // ];
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      {/* <Func /> */}
+      {/* <MapFilter /> */}
+      {/* <ArrayMethods /> */}
+      <StringMethods />
     </div>
   );
 }
